@@ -22,3 +22,4 @@ module.exports = function toReadable (number) {
     else {return text_number[Math.trunc(hundreds / 100)] + ' hundred ' + twoNum(hundreds % 100);}
   } 
 }
+
